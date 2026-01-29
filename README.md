@@ -18,11 +18,11 @@ GraphQL's has a strongly typed schema that benefits frontend developers by:
     - Example
         - API Exist: An GraphQL API that contains patient data of **name, address, age, height, medication history, prespription, prescription refills, diagnosis, care plan, care providers, and more.**
         - Front Clients from API
-            - Mobile App to view a patient's current prescription refills and all prescriptions they have.
+            - **Mobile App** to view a patient's current prescription refills and all prescriptions they have.
                 - Only queries for prescription and prescription.
-            - Desktop App to view patient files with basic information about the patient.
+            - **Desktop App** to view patient files with basic information about the patient.
                 - Only queries for name, address, age, height, and medication history.
-            - Tablet Application for quickly updating a patient's file with diagnosis and a care plan while also properly assigning the visit under the correct provider.
+            - **Tablet App** for quickly updating a patient's file with diagnosis and a care plan while also properly assigning the visit under the correct provider.
                 - Only queries for user name, address, age, and height for verifying the correct patient. Additionally, in the same request, queries for the care providers and care plan to update the system.
 
 
